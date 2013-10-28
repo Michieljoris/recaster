@@ -61,3 +61,5 @@ TODO:
 * make a distiction between libs that run on node and that are
   dependant on some native executable
 * incorporate image processing/optimizing? 
+* write docs using doccoh
+* add a commandline version
