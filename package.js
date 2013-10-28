@@ -34,13 +34,13 @@ module.exports = {
     // [npm](http://npmjs.org) enforces the X.Y.Z semantic version 
     // scheme that is described at [http://semver.org/](http://semver.org/)
     // and we should follow this versioning for our package.
-    "version": "0.1.0",
+    "version": "0.1.1",
     // URL to the homepage for this package.
     "homepage": "https://github.com/michieljoris/recaster",
     // An array of keywords used to describe this package to search engines,
     // mainly for people searching within the npm universe.
     "keywords": [
-        "scaffold", "seed", "template"
+        'transform', 'package', 'recast', 'minify', 'transpile', 'compress', 'gzip'
     ],
     // Where is the source of truth for this code, and what type of repo is it?
     "repository": {

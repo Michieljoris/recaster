@@ -1,12 +1,16 @@
 {
     "name": "recaster",
     "description": "Clone this project to scaffold a new (npm/node) project.",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "homepage": "https://github.com/michieljoris/recaster",
     "keywords": [
-        "scaffold",
-        "seed",
-        "template"
+        "transform",
+        "package",
+        "recast",
+        "minify",
+        "transpile",
+        "compress",
+        "gzip"
     ],
     "repository": {
         "type": "git",

@@ -7,7 +7,8 @@ transmission to the client.
 
 	 npm install recaster
 	 var recast = require('recaster').init({
-		transpile: ['jade', 'less', 'stylus', 'sweetjs', 'typescript', 'coffeescript', 'markdown', 'javascript'],
+		transpile: ['jade', 'less', 'stylus', 'sweetjs', 'typescript', 
+					'coffeescript', 'markdown', 'javascript'],
 		minify: ['js', 'css', 'html'],
 		compress: true,
      });
@@ -32,3 +33,11 @@ promise is fullfilled.
 
 The source is easily expanded and/or modified to include more
 transpilers or to change the libraries that do the work.
+
+TODO:
+
+* pass source maps from transpilers to minifiers
+* add default options for all transformers
+* add more transformers (clojurescript, sass, ?)
+* use streaming when possible?
+* use more standard Q instead of Crockford's vow.js
