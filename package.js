@@ -34,7 +34,7 @@ module.exports = {
     // [npm](http://npmjs.org) enforces the X.Y.Z semantic version 
     // scheme that is described at [http://semver.org/](http://semver.org/)
     // and we should follow this versioning for our package.
-    "version": "0.1.1",
+    "version": "0.1.3",
     // URL to the homepage for this package.
     "homepage": "https://github.com/michieljoris/recaster",
     // An array of keywords used to describe this package to search engines,
@@ -68,7 +68,7 @@ module.exports = {
     // If there is a file that should be loaded when require()ing this 
     // folder-as-a-package, declare this file here, relative to our package 
     // structure.
-    "main": "recaster.js",
+    "main": "lib/recaster.js",
     // Essentially, which Node.js platforms do we support? These are glob
     // like expressions supported by the 
     // [npm semantic version parser](https://npmjs.org/doc/semver.html), 
