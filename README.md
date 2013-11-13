@@ -22,10 +22,10 @@ transmission to the client.
 		verbose: true }
      });
 
-    recast(fileName, out).when(
+    recast({ srcPath: somePath, destPath: somePath2, 
+	         srcData: 'bla', type: 'html', encoding: 'gzip'}).when(
 		function(data) {
-		   //recast source is passed as data, eg to cache it in memory 
-		   //and optionally written to out if passed in.
+		   //data= { destData: 'xxx', type: 'html', encoding: 'gzip'}
 		},
 		function(error) {
 		   //deal with error
@@ -39,15 +39,35 @@ in (transpiled) javascript get converted to working es5 script.
 Options for the individual converters can be added as objects under
 their own name. Markdown is included as an example above.
 
-The function returns a promise of the recast source code, and if 'out'
-is passed as a parameter the recast source code gets written to it
-when the promise is fullfilled.
+The function returns a promise of the recast source. See example
+above for format of the returned data object.
+
+If srcData and type is passed in, this data is being used instead of
+reading a file from disk.
+
+If reading the file from disk fails, the promise fails.
+
+If a file is not transpilable (no type or there is no transform
+function defined fot the particular type) the original data gets
+returned, after possibly being zipped, keeping the promise.
+
+if there's an error transpiling, the promise breaks.
+
+If there's an error minifying, this step gets skipped. 
+
+if there's an error compressing, the promise is broken, however still
+returning the source data. The encoding property of the returned
+object will be undefined.
+
+If 'destPath' is passed as a parameter the recast source code gets
+written to it when the promise is fullfilled, this feature is
+temporarily disabled however.
 
 The source is easily expanded and/or modified to include more
 transpilers or to change the libraries that do the work.
 
 You can use this module to transpile for node, however coffeescript
-and sweetjs can be required directly. I imagine you set this up for
+and sweetjs can be required directly. I imagine you can set this up for
 the other transpilers as well.
 
 TODO:
