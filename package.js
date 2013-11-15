@@ -99,7 +99,7 @@ module.exports = {
         "uglify-js": "*",
         "html-minifier": "*",
         csso: "*",
-        "clean-css": "*",
+        "clean-css": "2.0.x",
         "sweet.js": "*",
         "regenerator": "*",
         "node-typescript": "*"
