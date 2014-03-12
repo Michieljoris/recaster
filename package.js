@@ -94,8 +94,9 @@ module.exports = {
         stylus: "*",
         jade: "*",
         marked: "*",
-        'coffee-script': "*",
-        "coffeescript-compiler": "*",
+        //coffee has to on the path
+        // 'coffee-script': "*",
+        // "coffeescript-compiler": "*",
         "uglify-js": "*",
         "html-minifier": "*",
         csso: "*",
