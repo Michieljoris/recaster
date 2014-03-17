@@ -90,20 +90,35 @@ module.exports = {
     "dependencies": {
         "dougs_vow": "*",
         extend: "*",
-        less: "*",
-        stylus: "*",
-        jade: "*",
-        marked: "*",
-        //coffee has to on the path
+        less: "1.7.*",
+        stylus: "0.42.*",
+        jade: "1.3.*",
+        marked: "0.3.*",
+        //coffee has to be on the path
         // 'coffee-script': "*",
         // "coffeescript-compiler": "*",
-        "uglify-js": "*",
-        "html-minifier": "*",
-        csso: "*",
-        "clean-css": "2.0.x",
-        "sweet.js": "*",
-        "regenerator": "*",
-        "node-typescript": "*"
+        "uglify-js": "2.4.*",
+        "html-minifier": "0.5.*",
+        csso: "1.3.*",
+        "clean-css": "2.1.x",
+        "sweet.js": "0.5.*",
+        "regenerator": "0.4.*",
+        "node-typescript": "0.9.*",
+        "denodify": '*'
+        //as of March/2014:
+        //node outdated:
+//         less             1.6.3   1.7.0   1.7.0  less
+// marked           0.3.1   0.3.2   0.3.1  marked
+// clean-css        2.0.8   2.0.8   2.1.0  clean-css
+// jade             1.1.5   1.3.0   1.3.0  jade
+// html-minifier    0.5.5   0.5.6   0.5.6  html-minifier
+// uglify-js       2.4.12  2.4.13  2.4.13  uglify-js
+// sweet.js         0.4.2   0.5.0   0.5.0  sweet.js
+// regenerator      0.4.1   0.4.2   0.4.2  regenerator
+// stylus          0.42.2  0.42.3  0.42.3  stylus
+// typescript       0.8.3   0.8.3   0.9.7  node-typescript > typescript
+// ncp              0.4.2   0.4.2   0.5.0  fs-extra > ncp
+
     },
     // What dependencies are useful only for developers?
     // Installed when we `npm install` in our working directory, but not 
