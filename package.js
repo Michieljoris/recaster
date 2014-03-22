@@ -104,7 +104,8 @@ module.exports = {
         "sweet.js": "0.5.*",
         "regenerator": "0.4.*",
         "node-typescript": "0.9.*",
-        "denodify": '*'
+        "denodify": '*',
+        "script-injector": "0.1.*"
         //as of March/2014:
         //node outdated:
 //         less             1.6.3   1.7.0   1.7.0  less
