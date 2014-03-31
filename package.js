@@ -103,22 +103,25 @@ module.exports = {
         "clean-css": "2.1.x",
         "sweet.js": "0.5.*",
         "regenerator": "0.4.*",
-        "node-typescript": "0.9.*",
+        "node-typescript": "0.1.*",
         "denodify": '*',
-        "script-injector": "0.1.*"
+        // "script-injector": "0.1.*" not using npm module but included lib/script-injector.js
+        "trumpet": "~1.6.3",
+        "through": "~2.3.4",
+        "duplexer": "~0.1.1"
         //as of March/2014:
         //node outdated:
-//         less             1.6.3   1.7.0   1.7.0  less
-// marked           0.3.1   0.3.2   0.3.1  marked
-// clean-css        2.0.8   2.0.8   2.1.0  clean-css
-// jade             1.1.5   1.3.0   1.3.0  jade
-// html-minifier    0.5.5   0.5.6   0.5.6  html-minifier
-// uglify-js       2.4.12  2.4.13  2.4.13  uglify-js
-// sweet.js         0.4.2   0.5.0   0.5.0  sweet.js
-// regenerator      0.4.1   0.4.2   0.4.2  regenerator
-// stylus          0.42.2  0.42.3  0.42.3  stylus
-// typescript       0.8.3   0.8.3   0.9.7  node-typescript > typescript
-// ncp              0.4.2   0.4.2   0.5.0  fs-extra > ncp
+        //         less             1.6.3   1.7.0   1.7.0  less
+        // marked           0.3.1   0.3.2   0.3.1  marked
+        // clean-css        2.0.8   2.0.8   2.1.0  clean-css
+        // jade             1.1.5   1.3.0   1.3.0  jade
+        // html-minifier    0.5.5   0.5.6   0.5.6  html-minifier
+        // uglify-js       2.4.12  2.4.13  2.4.13  uglify-js
+        // sweet.js         0.4.2   0.5.0   0.5.0  sweet.js
+        // regenerator      0.4.1   0.4.2   0.4.2  regenerator
+        // stylus          0.42.2  0.42.3  0.42.3  stylus
+        // typescript       0.8.3   0.8.3   0.9.7  node-typescript > typescript
+        // ncp              0.4.2   0.4.2   0.5.0  fs-extra > ncp
 
     },
     // What dependencies are useful only for developers?

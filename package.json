@@ -1,7 +1,7 @@
 {
   "name": "recaster",
   "description": "Clone this project to scaffold a new (npm/node) project.",
-  "version": "0.3.2",
+  "version": "0.3.4",
   "homepage": "https://github.com/michieljoris/recaster",
   "keywords": [
     "transform",
@@ -44,9 +44,11 @@
     "clean-css": "2.1.x",
     "sweet.js": "0.5.*",
     "regenerator": "0.4.*",
-    "node-typescript": "0.9.*",
+    "node-typescript": "0.1.*",
     "denodify": "*",
-    "script-injector": "0.1.*"
+    "trumpet": "~1.6.3",
+    "through": "~2.3.4",
+    "duplexer": "~0.1.1"
   },
   "devDependencies": {
     "fs-extra": "0.8.1",
