@@ -1,7 +1,7 @@
 {
   "name": "recaster",
   "description": "Clone this project to scaffold a new (npm/node) project.",
-  "version": "0.3.8",
+  "version": "0.3.9",
   "homepage": "https://github.com/michieljoris/recaster",
   "keywords": [
     "transform",
