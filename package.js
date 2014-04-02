@@ -97,7 +97,7 @@ module.exports = {
         //coffee has to be on the path
         // 'coffee-script': "*",
         // "coffeescript-compiler": "*",
-        "uglify-js": "2.4.*",
+        "uglify-js": "git://github.com/mishoo/UglifyJS.git",
         "html-minifier": "0.5.*",
         csso: "1.3.*",
         "clean-css": "2.1.x",
