@@ -100,7 +100,7 @@ module.exports = {
         "uglify-js": "git://github.com/mishoo/UglifyJS.git",
         "html-minifier": "0.5.*",
         csso: "1.3.*",
-        "clean-css": "2.1.x",
+        "clean-css": "2.1.7",
         "sweet.js": "0.5.x",
         "regenerator": "0.4.x",
         "node-typescript": "0.1.x",
