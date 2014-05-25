@@ -90,10 +90,10 @@ module.exports = {
     "dependencies": {
         "dougs_vow": "*",
         extend: "*",
-        less: "1.7.*",
-        stylus: "0.42.*",
+        less: "1.7.x",
+        stylus: "0.44.x",
         jade: "1.3.*",
-        marked: "0.3.*",
+        marked: "0.3.x",
         //coffee has to be on the path
         // 'coffee-script': "*",
         // "coffeescript-compiler": "*",
@@ -101,9 +101,9 @@ module.exports = {
         "html-minifier": "0.5.*",
         csso: "1.3.*",
         "clean-css": "2.1.x",
-        "sweet.js": "0.5.*",
-        "regenerator": "0.4.*",
-        "node-typescript": "0.1.*",
+        "sweet.js": "0.5.x",
+        "regenerator": "0.4.x",
+        "node-typescript": "0.1.x",
         "denodify": '*',
         // "script-injector": "0.1.*" not using npm module but included lib/script-injector.js
         "trumpet": "~1.6.3",
