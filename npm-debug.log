@@ -1,0 +1,153 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/home/michieljoris/bin/node',
+1 verbose cli   '/home/michieljoris/bin/npm',
+1 verbose cli   'publish' ]
+2 info using npm@1.4.9
+3 info using node@v0.10.28
+4 verbose node symlink /home/michieljoris/bin/node
+5 verbose publish [ '.' ]
+6 verbose cache add [ '.', null ]
+7 verbose cache add name=undefined spec="." args=[".",null]
+8 verbose parsed url { protocol: null,
+8 verbose parsed url   slashes: null,
+8 verbose parsed url   auth: null,
+8 verbose parsed url   host: null,
+8 verbose parsed url   port: null,
+8 verbose parsed url   hostname: null,
+8 verbose parsed url   hash: null,
+8 verbose parsed url   search: null,
+8 verbose parsed url   query: null,
+8 verbose parsed url   pathname: '.',
+8 verbose parsed url   path: '.',
+8 verbose parsed url   href: '.' }
+9 silly lockFile 3a52ce78- .
+10 verbose lock . /home/michieljoris/.npm/3a52ce78-.lock
+11 verbose tar pack [ '/home/michieljoris/tmp/npm-24870-yQKrFVNd/1416881771752-0.05293350713327527/tmp.tgz',
+11 verbose tar pack   '.' ]
+12 verbose tarball /home/michieljoris/tmp/npm-24870-yQKrFVNd/1416881771752-0.05293350713327527/tmp.tgz
+13 verbose folder .
+14 info prepublish recaster@0.3.21
+15 silly lockFile 1f1177db-tar tar://.
+16 verbose lock tar://. /home/michieljoris/.npm/1f1177db-tar.lock
+17 silly lockFile ad954430-1752-0-05293350713327527-tmp-tgz tar:///home/michieljoris/tmp/npm-24870-yQKrFVNd/1416881771752-0.05293350713327527/tmp.tgz
+18 verbose lock tar:///home/michieljoris/tmp/npm-24870-yQKrFVNd/1416881771752-0.05293350713327527/tmp.tgz /home/michieljoris/.npm/ad954430-1752-0-05293350713327527-tmp-tgz.lock
+19 silly lockFile 1f1177db-tar tar://.
+20 silly lockFile 1f1177db-tar tar://.
+21 silly lockFile ad954430-1752-0-05293350713327527-tmp-tgz tar:///home/michieljoris/tmp/npm-24870-yQKrFVNd/1416881771752-0.05293350713327527/tmp.tgz
+22 silly lockFile ad954430-1752-0-05293350713327527-tmp-tgz tar:///home/michieljoris/tmp/npm-24870-yQKrFVNd/1416881771752-0.05293350713327527/tmp.tgz
+23 verbose tar unpack /home/michieljoris/tmp/npm-24870-yQKrFVNd/1416881771752-0.05293350713327527/tmp.tgz
+24 silly lockFile fd511847-oris-npm-recaster-0-3-21-package tar:///home/michieljoris/.npm/recaster/0.3.21/package
+25 verbose lock tar:///home/michieljoris/.npm/recaster/0.3.21/package /home/michieljoris/.npm/fd511847-oris-npm-recaster-0-3-21-package.lock
+26 silly lockFile ad954430-1752-0-05293350713327527-tmp-tgz tar:///home/michieljoris/tmp/npm-24870-yQKrFVNd/1416881771752-0.05293350713327527/tmp.tgz
+27 verbose lock tar:///home/michieljoris/tmp/npm-24870-yQKrFVNd/1416881771752-0.05293350713327527/tmp.tgz /home/michieljoris/.npm/ad954430-1752-0-05293350713327527-tmp-tgz.lock
+28 silly gunzTarPerm modes [ '755', '644' ]
+29 silly gunzTarPerm extractEntry package.json
+30 silly gunzTarPerm modified mode [ 'package.json', 488, 492 ]
+31 silly gunzTarPerm extractEntry .npmignore
+32 silly gunzTarPerm modified mode [ '.npmignore', 488, 492 ]
+33 silly gunzTarPerm extractEntry README.md
+34 silly gunzTarPerm modified mode [ 'README.md', 488, 492 ]
+35 silly gunzTarPerm extractEntry package.js
+36 silly gunzTarPerm modified mode [ 'package.js', 488, 492 ]
+37 silly gunzTarPerm extractEntry LICENSE.txt
+38 silly gunzTarPerm modified mode [ 'LICENSE.txt', 488, 492 ]
+39 silly gunzTarPerm extractEntry bin/go
+40 silly gunzTarPerm modified mode [ 'bin/go', 488, 492 ]
+41 silly gunzTarPerm extractEntry docs/docco.css
+42 silly gunzTarPerm modified mode [ 'docs/docco.css', 488, 492 ]
+43 silly gunzTarPerm extractEntry lib/coffee-compiler.js
+44 silly gunzTarPerm modified mode [ 'lib/coffee-compiler.js', 488, 492 ]
+45 silly gunzTarPerm extractEntry lib/recaster.js
+46 silly gunzTarPerm modified mode [ 'lib/recaster.js', 488, 492 ]
+47 silly gunzTarPerm extractEntry lib/regen-runtime.js
+48 silly gunzTarPerm modified mode [ 'lib/regen-runtime.js', 488, 492 ]
+49 silly gunzTarPerm extractEntry lib/script-injector.js
+50 silly gunzTarPerm modified mode [ 'lib/script-injector.js', 488, 492 ]
+51 silly gunzTarPerm extractEntry test/test.js
+52 silly gunzTarPerm modified mode [ 'test/test.js', 488, 492 ]
+53 silly gunzTarPerm extractEntry test/test-regen.js
+54 silly gunzTarPerm modified mode [ 'test/test-regen.js', 488, 492 ]
+55 silly gunzTarPerm extractEntry test/test.coffee
+56 silly gunzTarPerm modified mode [ 'test/test.coffee', 488, 492 ]
+57 silly gunzTarPerm extractEntry test/test.html
+58 silly gunzTarPerm modified mode [ 'test/test.html', 488, 492 ]
+59 silly gunzTarPerm extractEntry test/test.jade
+60 silly gunzTarPerm modified mode [ 'test/test.jade', 488, 492 ]
+61 silly gunzTarPerm extractEntry test/test-denodify.denodify
+62 silly gunzTarPerm modified mode [ 'test/test-denodify.denodify', 488, 492 ]
+63 silly gunzTarPerm extractEntry test/test.less
+64 silly gunzTarPerm modified mode [ 'test/test.less', 488, 492 ]
+65 silly gunzTarPerm extractEntry test/test.md
+66 silly gunzTarPerm modified mode [ 'test/test.md', 488, 492 ]
+67 silly gunzTarPerm extractEntry test/test.sjs
+68 silly gunzTarPerm modified mode [ 'test/test.sjs', 488, 492 ]
+69 silly gunzTarPerm extractEntry test/test.stylus
+70 silly gunzTarPerm modified mode [ 'test/test.stylus', 488, 492 ]
+71 silly gunzTarPerm extractEntry test/test.tsc
+72 silly gunzTarPerm modified mode [ 'test/test.tsc', 488, 492 ]
+73 silly lockFile fd511847-oris-npm-recaster-0-3-21-package tar:///home/michieljoris/.npm/recaster/0.3.21/package
+74 silly lockFile fd511847-oris-npm-recaster-0-3-21-package tar:///home/michieljoris/.npm/recaster/0.3.21/package
+75 silly lockFile ad954430-1752-0-05293350713327527-tmp-tgz tar:///home/michieljoris/tmp/npm-24870-yQKrFVNd/1416881771752-0.05293350713327527/tmp.tgz
+76 silly lockFile ad954430-1752-0-05293350713327527-tmp-tgz tar:///home/michieljoris/tmp/npm-24870-yQKrFVNd/1416881771752-0.05293350713327527/tmp.tgz
+77 silly lockFile 3a52ce78- .
+78 silly lockFile 3a52ce78- .
+79 silly publish { name: 'recaster',
+79 silly publish   description: 'Clone this project to scaffold a new (npm/node) project.',
+79 silly publish   version: '0.3.21',
+79 silly publish   homepage: 'https://github.com/michieljoris/recaster',
+79 silly publish   keywords:
+79 silly publish    [ 'transform',
+79 silly publish      'package',
+79 silly publish      'recast',
+79 silly publish      'minify',
+79 silly publish      'transpile',
+79 silly publish      'compress',
+79 silly publish      'gzip' ],
+79 silly publish   repository:
+79 silly publish    { type: 'git',
+79 silly publish      url: 'https://github.com/michieljoris/recaster.git' },
+79 silly publish   author:
+79 silly publish    { name: 'Michiel van Oosten',
+79 silly publish      email: 'mail@axion5.net',
+79 silly publish      url: 'http://blog.axion5.net/' },
+79 silly publish   licenses:
+79 silly publish    [ { type: 'MIT',
+79 silly publish        url: 'http://github.com/michieljoris/recaster/blob/master/LICENSE.txt' } ],
+79 silly publish   main: 'lib/recaster.js',
+79 silly publish   engines: { node: '>= 0.6.x' },
+79 silly publish   dependencies:
+79 silly publish    { dougs_vow: '*',
+79 silly publish      extend: '*',
+79 silly publish      less: '1.7.x',
+79 silly publish      stylus: '0.44.x',
+79 silly publish      jade: '1.3.*',
+79 silly publish      marked: '0.3.x',
+79 silly publish      'uglify-js': 'git://github.com/mishoo/UglifyJS.git',
+79 silly publish      'html-minifier': '0.5.*',
+79 silly publish      csso: '1.3.*',
+79 silly publish      'clean-css': '2.1.7',
+79 silly publish      'sweet.js': '0.5.x',
+79 silly publish      regenerator: '0.4.x',
+79 silly publish      'node-typescript': '0.1.x',
+79 silly publish      denodify: '*',
+79 silly publish      trumpet: '~1.6.3',
+79 silly publish      through: '~2.3.4',
+79 silly publish      duplexer: '~0.1.1' },
+79 silly publish   devDependencies: { 'fs-extra': '0.8.1', doccoh: '0.4.1' },
+79 silly publish   private: false,
+79 silly publish   scripts: { dist: 'node dist; node_modules/.bin/doccoh src/package.js' },
+79 silly publish   readme: 'recaster\n----------\n\nTransform files in various formats to the formats a browser can\nunderstand: html, js and css, and then minify and compress it for\ntransmission to the client.\n\n\t npm install recaster\n\t var recast = require(\'recaster\').init({\n\t\ttranspile: [\'jade\', \'less\', \'stylus\', \'sweetjs\', \'typescript\', \n\t\t\t\t\t\'coffeescript\', \'markdown\', \'regenerators\'],\n\t\tminify: [\'js\', \'css\', \'html\'],\n\t\tcompress: true,\n\t\tmarkdown: \n\t\t { gfm: true,\n\t\t   tables: true,\n\t\t   breaks: false,\n\t\t   pedantic: false,\n\t\t   sanitize: true,\n\t\t   smartLists: true,\n\t\t   langPrefix: \'language-\'},\n\t\tverbose: true }\n     });\n\n    recast({ srcPath: somePath, destPath: somePath2, \n\t         srcData: \'bla\', type: \'html\', encoding: \'gzip\'}).when(\n\t\tfunction(data) {\n\t\t   //data= { destData: \'xxx\', type: \'html\', encoding: \'gzip\'}\n\t\t},\n\t\tfunction(error) {\n\t\t   //deal with error\n\t\t}\n    });\n\t\nThe various formats are transpiled to the corresponding html, css and\njs formats. If \'regenerators\' is added to transpile, any es6 generators\nin (transpiled) javascript get converted to working es5 script.\n\nOptions for the individual converters can be added as objects under\ntheir own name. Markdown is included as an example above.\n\nThe function returns a promise of the recast source. See example\nabove for format of the returned data object.\n\nIf srcData and type is passed in, this data is being used instead of\nreading a file from disk.\n\nIf reading the file from disk fails, the promise fails.\n\nIf a file is not transpilable (no type or there is no transform\nfunction defined fot the particular type) the original data gets\nreturned, after possibly being zipped, keeping the promise.\n\nif there\'s an error transpiling, the promise breaks.\n\nIf there\'s an error minifying, this step gets skipped. \n\nif there\'s an error compressing, the promise is broken, however still\nreturning the source data. The encoding property of the returned\nobject will be undefined.\n\nIf \'destPath\' is passed as a parameter the recast source code gets\nwritten to it when the promise is fullfilled, this feature is\ntemporarily disabled however.\n\nThe source is easily expanded and/or modified to include more\ntranspilers or to change the libraries that do the work.\n\nYou can use this module to transpile for node, however coffeescript\nand sweetjs can be required directly. I imagine you can set this up for\nthe other transpilers as well.\n\nTODO:\n\n* pass source maps from transpilers to minifiers\n* add default options for all transformers\n* add more transformers (clojurescript, sass, lispyscript, sibilant,\n   dart, parenscript, wisp )\n* use streaming when possible?\n* use more standard Q instead of Crockford\'s vow.js\n* make a distiction between libs that run on node and that are\n  dependant on some native executable\n* incorporate image processing/optimizing? \n* write docs using doccoh\n* add a commandline version\n',
+79 silly publish   readmeFilename: 'README.md',
+79 silly publish   bugs: { url: 'https://github.com/michieljoris/recaster/issues' },
+79 silly publish   _id: 'recaster@0.3.21',
+79 silly publish   _shasum: 'bc762641fd291dafa6277a6a1e3db3b3eabb654c',
+79 silly publish   _from: '.' }
+80 error need auth auth and email required for publishing
+80 error need auth You need to authorize this machine using `npm adduser`
+81 error System Linux 3.13.0-32-generic
+82 error command "/home/michieljoris/bin/node" "/home/michieljoris/bin/npm" "publish"
+83 error cwd /media/michieljoris/d5099508-7d17-4aea-ac80-ac38100b9447/mysrc/javascript/recaster
+84 error node -v v0.10.28
+85 error npm -v 1.4.9
+86 error code ENEEDAUTH
+87 verbose exit [ 1, true ]
